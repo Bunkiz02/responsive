@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai&family=Noto+Sans:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Noto Sans Thai', sans-serif;
+    margin: 0 auto;
+    
+}
+
+html{
+  font-size: calc(60%+0.8vmin);
+  margin: 0 auto;
+}
+nav{
+    background-color: gray;
+    height: 3vw;
+}
+#navbarScrollingDropdown{
+    margin-left: 400px;
+}
+.bar1{
+    margin-left: 400px;
+}
+.bars{
+    margin-left: 90px; 
+    margin-top: 5px;
+   
+}
+.bars1{
+    margin-left: 90px; 
+    margin-bottom: 5px;
+}
+.avatar {
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+  .img{
+    width: 200px;
+    height: 200px;
+  }
+  .line {
+    border-right: 2px solid #D3D3D3;
+    padding-right: 0.3rem;        
+}
+.bar3 {
+    margin-right: 330px;
+}
+.bar4{
+    font-size: 0.9vw;
+    margin-top: 4px;
+    
+
+}
+.search-sildbar{
+    width: 40vw;
+    outline: none;
+}
+#search{
+    border-radius: 20px;
+}
+.nav2{
+    background-color:#eaeaea;
+    height: 4vw;
+}
+.search-container {
+    margin-top: 10px;
+    background-color: #FFF;
+    position: relative;
+    border-radius: 30px;
+    padding: 3px 50px 3px 10px;
+  }
+  .search-box {
+    background-color: transparent;
+    outline: none;
+    height: 35px;
+    font-size: 15px;
+    border: 0;
+    width: 100%;
+  }
+  .search-button {
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: unset;
+    background-color: orangered;
+    border-radius: 50%;
+    border: 0;
+    color: #FFF;
+    width: 40px;
+    height: 40px;
+    outline: 0;
+  }
+  span {
+    display: block;
+  }
+  .truck{
+    margin-left: 50px;
+    transition: 300ms;
+  }
+  .cart{
+    margin-left: 5px;
+    transition: 300ms;
+  }
+  .fa-truck{
+    font-size: 1vw;
+
+  }
+  .fa-cart-shopping{
+    font-size: 1vw;
+  }
+  @media screen  and (max-width: 700px) {
+    body{
+        flex-direction: column;
+    }
+  }
+  .home-page{
+    margin-left: 450px;
+  }
+  .btn2{
+    border: #FFF;
+    background: #FFF;
+    margin-left: 400px;
+  }
+  .btn3{
+    border: #FFF;
+    background: #FFF;
+    margin-left: 2px;
+    
+  }
+  .btn4{
+    border: #FFF;
+    background: #FFF;
+    margin-left: 2px;
+  }
+  h2{
+   margin-right:790px;
+  }
+  h3{
+    margin-left: 400px;
+  }
+  table, th, td,tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin-left: 10px;
+   
+   
+    
+  }
+  .textcenter{
+    border: 1px solid black;
+    text-align:right;
+   border-right: none;
+   width: 100px;
+  }
+  .borderall{
+    border: 1px solid black;
+   
+  }
+  .th1{
+
+    width: 350px;
+  }
+  .pricetext{
+    text-align:center;
+    border: 1px solid black;
+    
+  }
+  .listext{
+    border: 1px solid black;
+  }
+  .container{
+   margin-right: 10px;
+  }
+  .card{
+   margin-left: 400px;
+
+  
+  }
+  #card-radius{
+    border-radius: 10px;
+  }
+  .btn-list{
+    margin-top: 9px;
+  }
+  .font-list{
+    border-left: 7px solid orangered ;
+    padding-left: 10px;
+    font-size: 200%;
+    margin-left: 400px;
+    color: black;
+    text-decoration: none;
+  }
+  .font-list:hover{
+    color: black;
+  }
+  .all-list{
+    margin-left: 380px;
+    color: orangered ;
+    text-decoration: none;
+    font-size: 1vw;
+    font-weight: 600;
+  }
+  .all-list:hover{
+    color: orangered ;
+  }
+  .truck:hover{
+   background-color: orangered;
+  }
+  .avatar:hover{
+    background-color: orangered;
+  }
+  .cart:hover{
+    background-color: orangered;
+    
+   }
+   .btn2:hover{
+    color:orangered ;
+   }
+   .btn3:hover{
+    color:orangered ;
+   }
+   .btn4:hover{
+    color:orangered ;
+   }
+/* 
+  @media screen and (max-width:500px) {
+  .nav2{
+width: 100%;
+    }
+  .xx{
+    background-color: lightblue;
+    flex-direction: column;
+  }
+  .bars{
+    width: 100%;
+    flex-direction: column;
+  }
+  .bars1{
+    flex-direction: column;
+  }
+  
+
+    
+  } */
+  
+  
+
+    
